@@ -1,6 +1,6 @@
 // Style reminder: «طريق الثقة» — RTL editorial layout, navy/gold wayfinding, generous whitespace, road-line motif, and restrained motion.
-import { ArrowLeft, ArrowUpLeft, BookOpen, Check, ChevronLeft, Clock3, ExternalLink, MapPin, Menu, MessageCircle, Phone, Play, ShieldCheck, Sparkles, Target, Trophy, X } from "lucide-react";
-import { useState } from "react";
+import { ArrowLeft, ArrowUpLeft, BookOpen, Check, ChevronLeft, Clock3, ExternalLink, MapPin, MessageCircle, Phone, Play, ShieldCheck, Sparkles, Target, Trophy } from "lucide-react";
+import SiteNav from "../components/SiteNav";
 import { Link } from "wouter";
 
 const phone = "0612160626";
@@ -25,25 +25,9 @@ function Logo() {
 }
 
 export default function Home() {
-  const [open, setOpen] = useState(false);
   return (
     <div dir="rtl" className="site-shell">
-      <header className="site-header">
-        <div className="container nav-wrap">
-          <Link href="/" className="brand-link" onClick={() => setOpen(false)}><Logo /></Link>
-          <button className="mobile-menu" aria-label={open ? "إغلاق القائمة" : "فتح القائمة"} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
-          <nav className={open ? "main-nav is-open" : "main-nav"}>
-            <a href="#about" onClick={() => setOpen(false)}>لماذا الكتبية؟</a>
-            <a href="#method" onClick={() => setOpen(false)}>منهجيتنا</a>
-            <a href="#categories" onClick={() => setOpen(false)}>أصناف السياقة</a>
-            <Link href="/page3.html" onClick={() => setOpen(false)}>دليل الرخصة</Link>
-            <Link href="/quiz" onClick={() => setOpen(false)}>اختبارات السياقة</Link>
-            <Link href="/infractions" onClick={() => setOpen(false)}>المخالفات</Link>
-            <Link href="/panneaux" onClick={() => setOpen(false)}>الإشارات</Link>
-            <a className="nav-call" href={`tel:${phone}`}><Phone size={16} /> اتصل بنا</a>
-          </nav>
-        </div>
-      </header>
+      <SiteNav active="home" />
 
       <main>
         <section className="hero-section">

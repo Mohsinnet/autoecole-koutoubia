@@ -2,6 +2,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "wouter";
 import { ArrowRight, ChevronDown, Search, ShieldAlert, X } from "lucide-react";
+import SiteNav from "../components/SiteNav";
 
 type Infraction = {
   title: string;
@@ -46,7 +47,7 @@ export default function Infractions() {
 
   return (
     <div className="infractions-page" dir="rtl">
-      <header className="infractions-header"><div className="container infractions-nav"><Link href="/" className="infractions-brand"><span className="brand-mark">ك</span><span>مؤسسة <b>الكتبية</b><small>لتعليم السياقة</small></span></Link><nav><Link href="/">الرئيسية</Link><Link href="/quiz">الاختبارات</Link><Link href="/page3.html">دليل الرخصة</Link><Link href="/infractions" className="active">المخالفات</Link></nav><Link href="/" className="infractions-back"><ArrowRight size={15} /> العودة للموقع</Link></div></header>
+      <SiteNav active="infractions" />
       <main className="container infractions-main road-guide">
         <div className="infractions-crumb"><span>دليل الطريق</span><span>/</span><b>المخالفات</b></div>
         <section className="infractions-intro"><div><p className="eyebrow">مرجع عملي للسائق</p><h1>المخالفات</h1><p>تعرّف على أبرز المخالفات والغرامات ونقاط السياقة بطريقة واضحة وسريعة.</p></div><div className="infractions-intro-badge"><ShieldAlert size={22} /><span>قد الطريق<br /><b>بمسؤولية.</b></span></div></section>

@@ -1,6 +1,7 @@
 // Style reminder: «طريق الثقة» — faithfully mirror the reference catalogue structure in Arabic RTL while retaining Koutoubia navy/gold wayfinding.
 import { useMemo, useState } from "react";
-import { ArrowRight, ChevronDown, Search, Signpost, X, UserCircle2 } from "lucide-react";
+import { ArrowRight, ChevronDown, Search, Signpost, X } from "lucide-react";
+import SiteNav from "../components/SiteNav";
 import { Link } from "wouter";
 import { referenceGroups, type ReferenceSign } from "../referenceSigns";
 
@@ -20,7 +21,7 @@ export default function TrafficSigns() {
 
   return (
     <div className="signs-page reference-signs-page" dir="rtl">
-      <header className="signs-header"><div className="container signs-nav"><Link href="/" className="signs-brand"><span className="brand-mark">ك</span><span>مؤسسة <b>الكتبية</b><small>لتعليم السياقة</small></span></Link><nav><Link href="/">الرئيسية</Link><Link href="/quiz">الاختبارات</Link><Link href="/infractions">المخالفات</Link><Link href="/panneaux" className="active">الإشارات</Link></nav><div className="signs-header-actions"><a href="tel:0612160626" className="signs-call">اتصل بنا</a><button type="button" className="signs-account" aria-label="الحساب"><UserCircle2 size={20} /></button><Link href="/" className="signs-back"><ArrowRight size={15} /> العودة للموقع</Link></div></div></header>
+      <SiteNav active="panneaux" />
       <main className="container signs-main road-guide">
         <div className="signs-crumb"><span>دليل الطريق</span><span>/</span><b>الإشارات</b></div>
         <section className="reference-title"><div><h1>الإشارات</h1><p>جميع إشارات المرور في مدونة السير المغربية، مرتبة حسب الصنف.</p></div><span className="beta-badge">BETA</span></section>
