@@ -111,3 +111,56 @@ button:active, a:active { transform: scale(.98); }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *:before, *:after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
 
 @layer base { * { @apply border-border outline-ring/50; } button:not(:disabled), a[href] { @apply cursor-pointer; } }
+
+/* Page 3 — route-led Moroccan licence guide: navy structure, gold wayfinding, green only for confirmation. */
+.original-guide { background: #f7f6f1; color: #142946; min-height: 100vh; }
+.guide-header { background: #102641; color: #fff; position: relative; overflow: hidden; }
+.guide-header:after { content: ""; position: absolute; inset: 0; opacity: .16; pointer-events: none; background: repeating-linear-gradient(118deg, transparent 0 150px, #f4b41a 151px 153px, transparent 154px 300px); }
+.guide-nav, .guide-title { position: relative; z-index: 1; }
+.guide-nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.14); }
+.guide-back, .guide-phone { color: rgba(255,255,255,.86); display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 800; transition: color .2s ease, transform .2s ease; }
+.guide-back:hover, .guide-phone:hover { color: #f4b41a; transform: translateY(-2px); }
+.guide-logo { color: #fff; display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 800; }
+.guide-logo b { color: #f4b41a; }
+.guide-logo img { width: 30px; height: 30px; object-fit: contain; }
+.guide-title { padding: 84px 0 100px; max-width: 1200px; }
+.guide-overline { color: #f4b41a; font-size: 12px; font-weight: 900; letter-spacing: .03em; }
+.guide-title h1 { margin: 16px 0 18px; font-family: "Cairo"; font-size: clamp(42px, 7vw, 84px); line-height: 1.08; letter-spacing: -.06em; max-width: 750px; }
+.guide-title h1 em, .guide-title em, .guide-cta em { color: #f4b41a; font-style: normal; }
+.guide-title p { max-width: 530px; color: rgba(255,255,255,.7); font-size: 17px; line-height: 1.9; }
+.guide-welcome { background: #f4b41a; color: #142946; }
+.welcome-inner { min-height: 84px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.welcome-inner > div { display: flex; align-items: center; gap: 13px; }
+.welcome-icon { width: 35px; height: 35px; display: grid; place-items: center; border: 1px solid rgba(20,41,70,.4); border-radius: 50%; }
+.welcome-inner strong { font-size: 15px; } .welcome-inner p { margin: 3px 0 0; font-size: 12px; opacity: .75; }
+.welcome-inner > a { display: inline-flex; align-items: center; gap: 7px; padding: 11px 17px; border: 1px solid rgba(20,41,70,.38); font-size: 12px; font-weight: 900; }
+.original-guide-section { padding-top: 105px; padding-bottom: 125px; }
+.original-guide-section > h2, .exam-section h2 { margin: 18px 0 48px; font-family: "Cairo"; font-size: clamp(36px, 5vw, 62px); line-height: 1.18; letter-spacing: -.05em; }
+.original-guide-section h2 span, .exam-section h2 span { color: #e1a20c; }
+.original-guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.guide-document-card { position: relative; background: #fff; border: 1px solid #dce0db; padding: 27px; box-shadow: 11px 11px 0 rgba(244,180,26,.45); }
+.guide-document-card:nth-child(2) { transform: translateY(42px); }
+.guide-document-head { display: flex; align-items: center; justify-content: space-between; color: #1f9d72; }
+.guide-document-head span { color: #f4b41a; font-family: "Cairo"; font-size: 14px; font-weight: 900; }
+.guide-document-card h3 { margin: 18px 0 21px; max-width: 390px; font-family: "Cairo"; font-size: 25px; line-height: 1.45; }
+.guide-document-card ul { display: grid; gap: 12px; list-style: none; margin: 0; padding: 0; color: #64717a; font-size: 14px; line-height: 1.7; }
+.guide-document-card li { display: flex; align-items: flex-start; gap: 8px; } .guide-document-card li svg { flex: 0 0 auto; margin-top: 4px; color: #1f9d72; }
+.guide-document-image { aspect-ratio: 16 / 8; margin: 25px -27px 0; overflow: hidden; background: #e9ece9; }
+.guide-document-image img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.document-foot { display: flex; align-items: center; gap: 6px; margin-top: 18px; color: #9a7a16; font-size: 11px; font-weight: 800; }
+.exam-section { background: #102641; color: #fff; padding: 115px 0 125px; position: relative; overflow: hidden; }
+.exam-section:after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .17; background: repeating-linear-gradient(118deg, transparent 0 150px, #f4b41a 151px 153px, transparent 154px 300px); }
+.exam-section > .container { position: relative; z-index: 1; }
+.section-kicker.light { color: #f4b41a; } .section-kicker.light span { color: #fff; }
+.exam-block { display: grid; grid-template-columns: 1fr .95fr; gap: 65px; align-items: center; margin-top: 58px; padding-top: 46px; border-top: 1px solid rgba(255,255,255,.16); }
+.exam-block-reverse { grid-template-columns: .95fr 1fr; } .exam-block-reverse .exam-copy { order: 2; }
+.exam-block > img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border: 8px solid #f4b41a; box-shadow: 12px 12px 0 rgba(255,255,255,.12); }
+.exam-number { color: #f4b41a; font-family: "Cairo"; font-size: 13px; font-weight: 900; }
+.exam-copy h3 { margin: 14px 0 15px; font-family: "Cairo"; font-size: clamp(26px, 3.3vw, 42px); } .exam-copy h3 em { color: #f4b41a; font-style: normal; font-size: .65em; }
+.exam-copy > p { max-width: 570px; color: rgba(255,255,255,.7); font-size: 15px; line-height: 2; }
+.exam-note { border-right: 3px solid #f4b41a; padding-right: 16px; } .exam-note b { color: #f4b41a; }
+.exam-quote { padding: 36px; border: 1px solid rgba(244,180,26,.5); background: rgba(255,255,255,.05); color: rgba(255,255,255,.78); } .exam-quote svg { color: #f4b41a; } .exam-quote p { margin: 18px 0 0; font-family: "Cairo"; font-size: 22px; line-height: 1.8; }
+.exam-points { display: grid; gap: 12px; margin-top: 24px; } .exam-points p { display: flex; align-items: flex-start; gap: 8px; margin: 0; color: rgba(255,255,255,.72); font-size: 14px; line-height: 1.8; } .exam-points svg { color: #1f9d72; flex: 0 0 auto; margin-top: 3px; }
+.guide-cta { background: #e9eeeb; padding: 85px 0; } .guide-cta-inner { display: flex; justify-content: space-between; align-items: center; gap: 32px; } .guide-cta span { color: #1f9d72; font-size: 12px; font-weight: 900; } .guide-cta h2 { margin: 14px 0 0; font-family: "Cairo"; font-size: clamp(33px, 5vw, 55px); line-height: 1.2; } .guide-cta-actions { display: flex; flex-wrap: wrap; gap: 12px; } .button { display: inline-flex; align-items: center; gap: 8px; padding: 14px 18px; font-size: 12px; font-weight: 900; transition: transform .2s ease, box-shadow .2s ease; } .button:hover { transform: translateY(-3px); box-shadow: 0 8px 18px rgba(20,41,70,.12); } .button-gold { color: #142946; background: #f4b41a; } .button-light { color: #142946; background: #fff; border: 1px solid #cfd7d1; }
+.site-footer { background: #0b1e35; color: rgba(255,255,255,.58); } .footer-inner { min-height: 85px; display: flex; align-items: center; justify-content: space-between; gap: 18px; } .footer-inner p { margin: 0; font-size: 11px; }
+@media (max-width: 800px) { .guide-nav { min-height: 66px; } .guide-phone { display: none; } .guide-title { padding: 64px 1rem 72px; } .guide-title h1 { font-size: 48px; } .welcome-inner { padding: 18px 1rem; align-items: flex-start; flex-direction: column; } .original-guide-section { padding-top: 75px; padding-bottom: 85px; } .original-guide-grid { grid-template-columns: 1fr; } .guide-document-card:nth-child(2) { transform: none; } .exam-section { padding: 80px 0; } .exam-block, .exam-block-reverse { grid-template-columns: 1fr; gap: 30px; margin-top: 40px; } .exam-block-reverse .exam-copy { order: initial; } .exam-quote { padding: 25px; } .guide-cta-inner, .footer-inner { align-items: flex-start; flex-direction: column; } .guide-cta { padding: 65px 0; } .footer-inner { padding-top: 22px; padding-bottom: 22px; } }
