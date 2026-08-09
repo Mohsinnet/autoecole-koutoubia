@@ -37,7 +37,7 @@ export default function Home() {
             <a href="#method" onClick={() => setOpen(false)}>منهجيتنا</a>
             <a href="#categories" onClick={() => setOpen(false)}>أصناف السياقة</a>
             <Link href="/page3.html" onClick={() => setOpen(false)}>دليل الرخصة</Link>
-            <Link href="/quiz" className="nav-quiz" onClick={() => setOpen(false)}><Trophy size={15} /> اختبارات السياقة</Link>
+            <Link href="/quiz" onClick={() => setOpen(false)}>اختبارات السياقة</Link>
             <a className="nav-call" href={`tel:${phone}`}><Phone size={16} /> اتصل بنا</a>
           </nav>
         </div>
