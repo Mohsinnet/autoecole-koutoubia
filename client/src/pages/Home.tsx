@@ -38,6 +38,7 @@ export default function Home() {
             <a href="#categories" onClick={() => setOpen(false)}>أصناف السياقة</a>
             <Link href="/page3.html" onClick={() => setOpen(false)}>دليل الرخصة</Link>
             <Link href="/quiz" onClick={() => setOpen(false)}>اختبارات السياقة</Link>
+            <Link href="/infractions" onClick={() => setOpen(false)}>المخالفات</Link>
             <a className="nav-call" href={`tel:${phone}`}><Phone size={16} /> اتصل بنا</a>
           </nav>
         </div>
