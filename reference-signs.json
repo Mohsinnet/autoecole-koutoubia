@@ -1,0 +1,1014 @@
+[
+  {
+    "name": "خطر منعرج لليمين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p1_1.png"
+  },
+  {
+    "name": "خطر منعرج لليسار",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p1_0.png"
+  },
+  {
+    "name": "منعرجات متتابعة أولها على اليسار",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p1_2.png"
+  },
+  {
+    "name": "منعرجات متتابعة أولها على اليمين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p1_3.png"
+  },
+  {
+    "name": "خطر منحدر حاد 6%",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p1_4.png"
+  },
+  {
+    "name": "منحدر خطير بنسبة 10%",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p1_5.png"
+  },
+  {
+    "name": "خطر طريق ضيق من جهة اليمين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_0.png"
+  },
+  {
+    "name": "خطر طريق ضيق من الجهتين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_1.png"
+  },
+  {
+    "name": "خطر طريق ضيق محليا",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_2.png"
+  },
+  {
+    "name": "خطر طريق ضيق من جهة اليسار",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_3.png"
+  },
+  {
+    "name": "خطر منفذ إلى رصيف أو ضفة نهر",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_4.png"
+  },
+  {
+    "name": "خطر جسر متحرك",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_5.png"
+  },
+  {
+    "name": "خطر مخفض السرعة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_6.png"
+  },
+  {
+    "name": "خطر طريق محدب أو وهدة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_7.png"
+  },
+  {
+    "name": "خطر طريق تغمرها المياه",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_8.png"
+  },
+  {
+    "name": "خطر طريق زلقة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_9.png"
+  },
+  {
+    "name": "خطر تساقط الأحجار",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_10.png"
+  },
+  {
+    "name": "خطر تطاير الحصى",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p2_11.png"
+  },
+  {
+    "name": "انتباه مكان يرتاده الأطفال",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_0.png"
+  },
+  {
+    "name": "خطر ممر الراجلين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_1.png"
+  },
+  {
+    "name": "خطر مرور حيوانات أليفة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_2.png"
+  },
+  {
+    "name": "خطر مرور الدراجات",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_3.png"
+  },
+  {
+    "name": "خطر مرور الجمال",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_4.png"
+  },
+  {
+    "name": "خطر مرور حيوانات أليفة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_5.png"
+  },
+  {
+    "name": "خطر مرور الفرسان",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_6.png"
+  },
+  {
+    "name": "خطر مرور حيوانات برية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_7.png"
+  },
+  {
+    "name": "خطر مرور طائرات على علو منخفض",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_8.png"
+  },
+  {
+    "name": "انتباه أضواء المرور الثلاثية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p3_9.png"
+  },
+  {
+    "name": "خطر السير في الاتجاهين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_0.png"
+  },
+  {
+    "name": "خطر رياح جانبية قوية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_1.png"
+  },
+  {
+    "name": "سكة حديدية بحواجز",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_2.png"
+  },
+  {
+    "name": "انتباه أخطار متنوعة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_3.png"
+  },
+  {
+    "name": "خطر سكة حديدية بدون حواجز",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_4.png"
+  },
+  {
+    "name": "خطر مرور الترامواي",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_5.png"
+  },
+  {
+    "name": "خطر مرور جرارات فلاحية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_6.png"
+  },
+  {
+    "name": "خطر مرور عربات مجرورة بالحيوانات",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_7.png"
+  },
+  {
+    "name": "خطر طريق محدب أو وهدة مؤقت",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_8.png"
+  },
+  {
+    "name": "خطر طريق ضيق من الجهتين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p4_9.png"
+  },
+  {
+    "name": "خطر مؤقت: طريق تضيق من جهة اليمين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_0.png"
+  },
+  {
+    "name": "خطر مؤقت: طريق تضيق من جهة اليسار",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_1.png"
+  },
+  {
+    "name": "خطر طريق زلقة مؤقت",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_2.png"
+  },
+  {
+    "name": "خطر أشغال مؤقتة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_3.png"
+  },
+  {
+    "name": "انتباه أخطار متنوعة مؤقتة",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_4.png"
+  },
+  {
+    "name": "إعلان مؤقت عن إشارات ضوئية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_5.png"
+  },
+  {
+    "name": "خطر مؤقت: تطاير الحصى",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_6.png"
+  },
+  {
+    "name": "خطر مؤقت: حادثة سير",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_7.png"
+  },
+  {
+    "name": "خطر مؤقت: ازدحام مروري",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p5_8.png"
+  },
+  {
+    "name": "نهاية طريق ذات أولوية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p7_1.png"
+  },
+  {
+    "name": "طريق ذات أولوية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p7_0.png"
+  },
+  {
+    "name": "ملتقى طرق مع أولوية المرور",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_6.png"
+  },
+  {
+    "name": "انتباه ملتقى طرقي دوراني",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_7.png"
+  },
+  {
+    "name": "ملتقى طرق الأسبقية لليمين",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_5.png"
+  },
+  {
+    "name": "إشارة متقدمة لعلامة قف على بعد 150 متر",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_4.png"
+  },
+  {
+    "name": "إعطاء حق الأسبقية على بعد 150 متر",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_3.png"
+  },
+  {
+    "name": "إعطاء حق الأسبقية",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_2.png"
+  },
+  {
+    "name": "علامة قف",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_1.png"
+  },
+  {
+    "name": "علامة قف",
+    "src": "https://assets.conduire.ma/signs/khatar-asba9ia/sign_p6_0.png"
+  },
+  {
+    "name": "لوحة إضافية لمركبات النقل الجماعي",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p3_0.png"
+  },
+  {
+    "name": "لوحة تكميلية للسيارات الخفيفة",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p2_3.png"
+  },
+  {
+    "name": "مركز إغاثة وهاتف استغاثة ومطفأة حريق",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_2.png"
+  },
+  {
+    "name": "ممنوع من 1 إلى 15 من الشهر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_3.png"
+  },
+  {
+    "name": "لوحة إضافية قف على بعد 150 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_4.png"
+  },
+  {
+    "name": "لوحة تكميلية لمركبات نقل البضائع الخطيرة",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_5.png"
+  },
+  {
+    "name": "لوحة إضافية للاتجاه نحو اليمين",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_6.png"
+  },
+  {
+    "name": "لوحة تكميلية للاتجاه نحو اليسار",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_7.png"
+  },
+  {
+    "name": "لوحة تكميلية للدراجات",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_8.png"
+  },
+  {
+    "name": "لوحة هاتف الإغاثة",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_9.png"
+  },
+  {
+    "name": "لوحة إضافية للوزن 5.5 طن",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_10.png"
+  },
+  {
+    "name": "علامة إضافية لمسافة الامتداد 50 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_11.png"
+  },
+  {
+    "name": "لوحة تكميلية للاتجاه نحو الأسفل",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_12.png"
+  },
+  {
+    "name": "لوحة تكميلية لسلاسل الثلج",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_13.png"
+  },
+  {
+    "name": "لوحة شكل ملتقى الطرق",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_14.png"
+  },
+  {
+    "name": "خطر الانهيار الثلجي",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_15.png"
+  },
+  {
+    "name": "لوحة تكميلية للامتداد",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_16.png"
+  },
+  {
+    "name": "مركبات يتجاوز طولها 10 أمتار",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_17.png"
+  },
+  {
+    "name": "لوحة إضافية لمسافة الأمان في المنحدر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_18.png"
+  },
+  {
+    "name": "لوحة تكميلية للوزن على المحور 5 طن",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_19.png"
+  },
+  {
+    "name": "لوحة إضافية للاتجاه نحو اليسار",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_20.png"
+  },
+  {
+    "name": "لوحة إضافية خاصة بالدراجات النارية الصغيرة",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_21.png"
+  },
+  {
+    "name": "اترك الأسبقية",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p2_0.png"
+  },
+  {
+    "name": "ممنوع من 1 إلى 15 من الشهر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p1_3.png"
+  },
+  {
+    "name": "لوحة تكميلية للامتداد 15 كلم",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p2_4.png"
+  },
+  {
+    "name": "لوحة تكميلية باستثناء ذوي الاحتياجات الخاصة",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p2_5.png"
+  },
+  {
+    "name": "مخرج معمل",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p2_6.png"
+  },
+  {
+    "name": "لوحة إضافية خاصة بالحافلات",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p3_0.png"
+  },
+  {
+    "name": "لوحة إضافية للمسافة 1000 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p4_0.png"
+  },
+  {
+    "name": "لوحة تكميلية للمنع حسب الأوقات",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p5_0.png"
+  },
+  {
+    "name": "لوحة إضافية للمسافة 150 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p5_1.png"
+  },
+  {
+    "name": "لوحة تكميلية للامتداد 1000 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p6_0.png"
+  },
+  {
+    "name": "لوحة تكميلية للمواد المتفجرة",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p6_2.png"
+  },
+  {
+    "name": "لوحة تكميلية لمخطط الطريق",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p6_3.png"
+  },
+  {
+    "name": "لوحة إضافية لمحطة الوزن",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p7_0.png"
+  },
+  {
+    "name": "لويحة تكميلية للمسافة والاتجاه يسارا 50 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p7_4.png"
+  },
+  {
+    "name": "لوحة إضافية للدراجات النارية",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p7_5.png"
+  },
+  {
+    "name": "موقف سيارات بالأداء",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p8_0.png"
+  },
+  {
+    "name": "لوحة إضافية للراجلين",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p8_4.png"
+  },
+  {
+    "name": "لوحة تكميلية للاتجاه نحو اليسار",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p8_5.png"
+  },
+  {
+    "name": "لوحة تكميلية للمسافة والاتجاه 50 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p8_6.png"
+  },
+  {
+    "name": "لوحة تكميلية لعرض العربة 2 متر",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p8_7.png"
+  },
+  {
+    "name": "قارعة طريق مشوهة",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p8_8.png"
+  },
+  {
+    "name": "لوحة إضافية للعربات المجرورة بالحيوانات",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p9_0.png"
+  },
+  {
+    "name": "لوحة إضافية للجرارات الفلاحية",
+    "src": "https://assets.conduire.ma/signs/louihat/sign_p9_2.png"
+  },
+  {
+    "name": "ممنوع مرور الحافلات",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_0.png"
+  },
+  {
+    "name": "ممنوع القيام بنصف دورة",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_1.png"
+  },
+  {
+    "name": "ممنوع مرور العربات المجرورة بالحيوانات",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_2.png"
+  },
+  {
+    "name": "ممنوع مرور الدراجات النارية",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_3.png"
+  },
+  {
+    "name": "ممنوع مرور المركبات التي يتجاوز علوها 4.5 متر",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_4.png"
+  },
+  {
+    "name": "ممنوع مرور العربات التي يتجاوز عرضها 2.5 متر",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_5.png"
+  },
+  {
+    "name": "ممنوع مرور العربات ذات المحرك",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_6.png"
+  },
+  {
+    "name": "ممنوع مرور العربات اليدوية",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_7.png"
+  },
+  {
+    "name": "ممنوع مرور العربات التي تحمل مواد ملوثة للمياه",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_8.png"
+  },
+  {
+    "name": "ممنوع مرور العربات التي تحمل مواد خطيرة",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_9.png"
+  },
+  {
+    "name": "ممنوع مرور العربات التي يتجاوز وزنها 5.5 طن",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_10.png"
+  },
+  {
+    "name": "ممنوع مرور السيارات الخفيفة",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_11.png"
+  },
+  {
+    "name": "تحديد السرعة في 120 كلم/س",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_12.png"
+  },
+  {
+    "name": "قف - الدرك الملكي",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_13.png"
+  },
+  {
+    "name": "ممنوع مرور الجرارات والآليات الفلاحية",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_14.png"
+  },
+  {
+    "name": "تحديد السرعة في 80 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_15.png"
+  },
+  {
+    "name": "ممنوع تغيير الاتجاه نحو اليمين",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_16.png"
+  },
+  {
+    "name": "ممنوع مرور المركبات التي تحمل مواد متفجرة",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_17.png"
+  },
+  {
+    "name": "تحديد السرعة في 20 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_18.png"
+  },
+  {
+    "name": "أسبقية المرور للاتجاه المقابل",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_19.png"
+  },
+  {
+    "name": "ممنوع استعمال المنبه الصوتي",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_20.png"
+  },
+  {
+    "name": "تحديد السرعة في 60 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_21.png"
+  },
+  {
+    "name": "ممنوع مرور الدراجات النارية الخفيفة",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_22.png"
+  },
+  {
+    "name": "ممنوع ترك مسافة أقل من 70 متر",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_23.png"
+  },
+  {
+    "name": "ممنوع التجاوز على الشاحنات",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_24.png"
+  },
+  {
+    "name": "تحديد السرعة في 30 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_25.png"
+  },
+  {
+    "name": "ممنوع مرور المركبات التي يتجاوز طولها 10 أمتار",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_26.png"
+  },
+  {
+    "name": "ممنوع مرور الراجلين",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_27.png"
+  },
+  {
+    "name": "الجمارك",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_28.png"
+  },
+  {
+    "name": "قف عند محطة الأداء",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_29.png"
+  },
+  {
+    "name": "ممنوع التجاوز على السيارات",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_30.png"
+  },
+  {
+    "name": "ممنوع التوقف والوقوف",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_31.png"
+  },
+  {
+    "name": "ممنوع مرور المقطورات السياحية",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_32.png"
+  },
+  {
+    "name": "منع المرور على المركبات التي يتجاوز وزنها 2 طن لكل محور",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_33.png"
+  },
+  {
+    "name": "ممنوع الوقوف من 1 إلى 15 في الشهر",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_34.png"
+  },
+  {
+    "name": "ممنوع الوقوف",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_35.png"
+  },
+  {
+    "name": "ممنوع الوقوف مع الأداء",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_36.png"
+  },
+  {
+    "name": "تحديد السرعة في 100 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_37.png"
+  },
+  {
+    "name": "منطقة يمنع فيها الوقوف",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_38.png"
+  },
+  {
+    "name": "نهاية تحديد السرعة في 20 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_39.png"
+  },
+  {
+    "name": "الوقوف عند حاجز المراقبة الطرقية",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_40.png"
+  },
+  {
+    "name": "نهاية تحديد السرعة في 100 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_41.png"
+  },
+  {
+    "name": "نهاية منع التجاوز",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_42.png"
+  },
+  {
+    "name": "حاجز الثلج",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_43.png"
+  },
+  {
+    "name": "ممنوع المرور في هذا الاتجاه",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_44.png"
+  },
+  {
+    "name": "نهاية منع التجاوز على الشاحنات",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_45.png"
+  },
+  {
+    "name": "ممنوع الوقوف بالتناوب نصف شهري",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_46.png"
+  },
+  {
+    "name": "ممنوع الوقوف من 16 إلى 31",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_47.png"
+  },
+  {
+    "name": "قف - حاجز الشرطة",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_48.png"
+  },
+  {
+    "name": "ممنوع مرور العربات ذات المحرك",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_49.png"
+  },
+  {
+    "name": "نهاية تحديد السرعة في 60 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_50.png"
+  },
+  {
+    "name": "تحديد السرعة في 40 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_51.png"
+  },
+  {
+    "name": "ممنوع مرور القطعان",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_52.png"
+  },
+  {
+    "name": "نهاية منطقة تحديد السرعة 30",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_53.png"
+  },
+  {
+    "name": "نهاية منع مرور المتزلجين",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p1_54.png"
+  },
+  {
+    "name": "ممنوع تغيير الاتجاه نحو اليسار",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_0.png"
+  },
+  {
+    "name": "نهاية منطقة الوقوف بالمقابل والوقت",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_1.png"
+  },
+  {
+    "name": "نهاية تحديد السرعة 80 كلم",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_2.png"
+  },
+  {
+    "name": "نهاية منع الوقوف بالتناوب الشهري",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_3.png"
+  },
+  {
+    "name": "نهاية منع الوقوف",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_4.png"
+  },
+  {
+    "name": "نهاية تحديد السرعة في 40",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_5.png"
+  },
+  {
+    "name": "ممنوع الوقوف بالتناوب نصف شهري",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_6.png"
+  },
+  {
+    "name": "نهاية منع الوقوف بالتناوب الشهري",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_7.png"
+  },
+  {
+    "name": "نهاية منع استعمال المنبه الصوتي",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_8.png"
+  },
+  {
+    "name": "ممنوع الوقوف",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_9.png"
+  },
+  {
+    "name": "نهاية جميع قيود المنع",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_10.png"
+  },
+  {
+    "name": "ممنوع مرور الدراجات",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_11.png"
+  },
+  {
+    "name": "دخول منطقة تحديد السرعة 30",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_12.png"
+  },
+  {
+    "name": "نهاية منطقة التوقف المؤدى عنه",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_13.png"
+  },
+  {
+    "name": "ممنوع مرور عربات نقل البضائع",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_14.png"
+  },
+  {
+    "name": "ممنوع المرور في الاتجاهين",
+    "src": "https://assets.conduire.ma/signs/alman3/sign_p2_15.png"
+  },
+  {
+    "name": "إجبارية الانعطاف نحو اليمين",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_0.png"
+  },
+  {
+    "name": "إجبارية الانعطاف نحو اليسار",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_1.png"
+  },
+  {
+    "name": "إجبارية المرور من جهة اليسار",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_2.png"
+  },
+  {
+    "name": "إجبارية المرور من اليمين",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_3.png"
+  },
+  {
+    "name": "اتجاه إجباري إلى الأمام",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_4.png"
+  },
+  {
+    "name": "اتجاه إجباري نحو اليمين",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_5.png"
+  },
+  {
+    "name": "اتجاه إجباري نحو اليسار",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_7.png"
+  },
+  {
+    "name": "إجبارية المتابعة للأمام أو اليمين",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_8.png"
+  },
+  {
+    "name": "إجبارية المتابعة للأمام أو الانعطاف يسارا",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_9.png"
+  },
+  {
+    "name": "إجبارية الانعطاف يمينا أو يسارا",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_10.png"
+  },
+  {
+    "name": "اتجاه دوراني إجباري",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_11.png"
+  },
+  {
+    "name": "ممر إجباري للدراجات",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_12.png"
+  },
+  {
+    "name": "ممر إجباري للعربات المجرورة بالحيوانات",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_13.png"
+  },
+  {
+    "name": "ممر إجباري للعربات اليدوية",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_14.png"
+  },
+  {
+    "name": "ممر إجباري للحيوانات الأليفة",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_15.png"
+  },
+  {
+    "name": "ممر إجباري للخيالة",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_16.png"
+  },
+  {
+    "name": "إجبارية تغيير المسلك نحو اليمين",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_17.png"
+  },
+  {
+    "name": "ممر إجباري للراجلين",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_18.png"
+  },
+  {
+    "name": "السرعة الدنيا الإجبارية 30 كلم",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_19.png"
+  },
+  {
+    "name": "ممر إجباري للحافلات",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_20.png"
+  },
+  {
+    "name": "إجبارية استعمال سلاسل الثلوج",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_21.png"
+  },
+  {
+    "name": "إجبارية تشغيل أضواء التقابل",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_22.png"
+  },
+  {
+    "name": "مسلك إجباري للترامواي",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_23.png"
+  },
+  {
+    "name": "مسلك إجباري للمركبات البطيئة",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_24.png"
+  },
+  {
+    "name": "نهاية السرعة الدنيا الإجبارية 40",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_25.png"
+  },
+  {
+    "name": "نهاية الممر الإجباري للدراجات",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_26.png"
+  },
+  {
+    "name": "نهاية الممر الإجباري للراجلين",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_27.png"
+  },
+  {
+    "name": "نهاية الممر الإجباري للخيالة",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_28.png"
+  },
+  {
+    "name": "نهاية الممر الإجباري للحافلات",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_29.png"
+  },
+  {
+    "name": "نهاية إجبارية استعمال سلاسل الثلوج",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_30.png"
+  },
+  {
+    "name": "نهاية إجبارية إشعال الأضواء",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_31.png"
+  },
+  {
+    "name": "نهاية المسلك الإجباري للترامواي",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_32.png"
+  },
+  {
+    "name": "نهاية المسلك الإجباري للعربات البطيئة",
+    "src": "https://assets.conduire.ma/signs/ijbar/image_33.png"
+  },
+  {
+    "name": "رقم الطريق الوطنية 2",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_0.png"
+  },
+  {
+    "name": "رقم طريق جهوية 312",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_1.png"
+  },
+  {
+    "name": "رقم طريق إقليمية 5311",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_2.png"
+  },
+  {
+    "name": "رقم طريق غابوية 16",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_3.png"
+  },
+  {
+    "name": "دخول تجمع عمراني شفشاون",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_4.png"
+  },
+  {
+    "name": "نهاية التجمع العمراني شفشاون",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_5.png"
+  },
+  {
+    "name": "علامة دخول مدينة طانطان",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_6.png"
+  },
+  {
+    "name": "نهاية التجمع العمراني طانطان",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_7.png"
+  },
+  {
+    "name": "علامة تحديد الموقع أقشور",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_9.png"
+  },
+  {
+    "name": "علامة تحديد موقع مجرى مائي",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_10.png"
+  },
+  {
+    "name": "باحة الاستراحة الخميسات",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_11.png"
+  },
+  {
+    "name": "علامة اسم الشارع",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_12.png"
+  },
+  {
+    "name": "مخرج إغاثة على اليمين 100 متر",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_13.png"
+  },
+  {
+    "name": "مخرج إغاثة لليسار على بعد 200 متر",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_14.png"
+  },
+  {
+    "name": "نهاية باحة الاستراحة بالخميسات",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_15.png"
+  },
+  {
+    "name": "صوة كيلومترية للطريق الوطنية",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_16.png"
+  },
+  {
+    "name": "صوة حدود الإقليم على طريق وطنية",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_17.png"
+  },
+  {
+    "name": "صوة كيلومترية للطريق الجهوية",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_18.png"
+  },
+  {
+    "name": "صوة كيلومترية للطريق الإقليمية",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_19.png"
+  },
+  {
+    "name": "علامة التموقع الكيلومتري بالطريق السيار A2",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_20.png"
+  },
+  {
+    "name": "صوة هيكتومترية رقم 9",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_21.png"
+  },
+  {
+    "name": "صفيحة تحديد النقط الكيلومترية",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_22.png"
+  },
+  {
+    "name": "موقع أثري وليلي",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_23.png"
+  },
+  {
+    "name": "موقع تاريخي أو أثري",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_24.png"
+  },
+  {
+    "name": "موقع أثري وليلي",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_25.png"
+  },
+  {
+    "name": "علامة مدار توبقال السياحي",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_26.png"
+  },
+  {
+    "name": "المنتزه الوطني توبقال",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_27.png"
+  },
+  {
+    "name": "إشارة سياحية قصبة أيت حدو",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_28.png"
+  },
+  {
+    "name": "نهاية المنتزه الوطني تالاسمطان",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_30.png"
+  },
+  {
+    "name": "توجيه لموقع سياحي ساحة جامع الفنا",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_31.png"
+  },
+  {
+    "name": "موقع سياحي تاريخي وليلي",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_32.png"
+  },
+  {
+    "name": "موقع سياحي وليلي",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_33.png"
+  },
+  {
+    "name": "موقع تاريخي قصبة آيت حدو",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_34.png"
+  },
+  {
+    "name": "أعمدة تحديد المسافات والمنعرجات",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_35.png"
+  },
+  {
+    "name": "صوة ملتقى الطرق",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_36.png"
+  },
+  {
+    "name": "جهاز تعزيز التشوير الدائم",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_37.png"
+  },
+  {
+    "name": "صوة زرقاء لتعزيز التشوير",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_38.png"
+  },
+  {
+    "name": "أرمة تحديد حافة الطريق",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_39.png"
+  },
+  {
+    "name": "صوة منعرج خطير لليمين",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_40.png"
+  },
+  {
+    "name": "إجبارية المرور من جهة اليمين",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_41.png"
+  },
+  {
+    "name": "صوة للإشارة إلى تباعد المسالك",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_43.png"
+  },
+  {
+    "name": "صوى تحديد منعرج",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_44.png"
+  },
+  {
+    "name": "مؤشر اتجاه الرياح",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_45.png"
+  },
+  {
+    "name": "صوة لتحديد تباعد المسالك",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_46.png"
+  },
+  {
+    "name": "أعمدة الاقتراب من سكة حديدية",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_47.png"
+  },
+  {
+    "name": "خطر تيار كهربائي عالي الضغط",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_48.png"
+  },
+  {
+    "name": "موقع سكة حديدية بدون حواجز",
+    "src": "https://assets.conduire.ma/signs/mawaqi3/image_49.png"
+  }
+]
