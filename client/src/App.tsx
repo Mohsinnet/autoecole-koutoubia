@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Infractions from "./pages/Infractions";
 import LicenseGuide from "./pages/LicenseGuide";
 import Quiz from "./pages/Quiz";
+import TrafficSigns from "./pages/TrafficSigns";
 
 function Router() {
   return (
@@ -18,6 +19,8 @@ function Router() {
       <Route path="/quiz" component={Quiz} />
       <Route path="/infractions" component={Infractions} />
       <Route path="/ar/infractions" component={Infractions} />
+      <Route path="/panneaux" component={TrafficSigns} />
+      <Route path="/ar/panneaux" component={TrafficSigns} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

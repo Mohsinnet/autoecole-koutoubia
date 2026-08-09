@@ -39,6 +39,7 @@ export default function Home() {
             <Link href="/page3.html" onClick={() => setOpen(false)}>دليل الرخصة</Link>
             <Link href="/quiz" onClick={() => setOpen(false)}>اختبارات السياقة</Link>
             <Link href="/infractions" onClick={() => setOpen(false)}>المخالفات</Link>
+            <Link href="/panneaux" onClick={() => setOpen(false)}>الإشارات</Link>
             <a className="nav-call" href={`tel:${phone}`}><Phone size={16} /> اتصل بنا</a>
           </nav>
         </div>
@@ -56,6 +57,7 @@ export default function Home() {
                 <a href={`https://wa.me/212612160626?text=${encodeURIComponent("السلام عليكم، أود الاستفسار عن التسجيل في مؤسسة الكتبية.")}`} className="button button-gold"><MessageCircle size={18} /> ابدأ عبر واتساب <ArrowLeft size={17} /></a>
                 <a href={`tel:${phone}`} className="button button-quiet"><Phone size={17} /> {phone}</a>
                 <Link href="/infractions" className="button button-quiet">المخالفات المرورية <ArrowLeft size={17} /></Link>
+                <Link href="/panneaux" className="button button-quiet">إشارات المرور <ArrowLeft size={17} /></Link>
               </div>
               <div className="hero-proof"><span><Check size={15} /> تكوين نظري وتطبيقي</span><span><Check size={15} /> مواكبة فردية</span></div>
             </div>
