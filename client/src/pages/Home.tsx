@@ -55,6 +55,7 @@ export default function Home() {
               <div className="hero-actions">
                 <a href={`https://wa.me/212612160626?text=${encodeURIComponent("السلام عليكم، أود الاستفسار عن التسجيل في مؤسسة الكتبية.")}`} className="button button-gold"><MessageCircle size={18} /> ابدأ عبر واتساب <ArrowLeft size={17} /></a>
                 <a href={`tel:${phone}`} className="button button-quiet"><Phone size={17} /> {phone}</a>
+                <Link href="/infractions" className="button button-quiet">المخالفات المرورية <ArrowLeft size={17} /></Link>
               </div>
               <div className="hero-proof"><span><Check size={15} /> تكوين نظري وتطبيقي</span><span><Check size={15} /> مواكبة فردية</span></div>
             </div>
