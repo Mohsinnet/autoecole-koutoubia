@@ -270,3 +270,9 @@ button:active, a:active { transform: scale(.98); }
 .site-shell>.shared-site-header{position:absolute;inset-inline:0;top:0;background:rgba(16,40,63,.84);backdrop-filter:blur(10px)}
 .site-shell .hero-section{padding-top:78px}
 @media (max-width:900px){.site-shell .hero-section{padding-top:68px}}
+
+/* Practical exam visual: طريق الثقة — an editorial teaching image that makes the road test tangible without overpowering the exam guidance. */
+.practical-exam-visual{grid-column:1 / -1;margin:28px 0 0;position:relative;overflow:hidden;border:1px solid rgba(244,180,26,.42);background:#10283f;box-shadow:0 16px 32px rgba(16,40,63,.18)}
+.practical-exam-visual img{display:block;width:100%;max-height:390px;object-fit:cover;object-position:center 54%;filter:saturate(.92)}
+.practical-exam-visual figcaption{position:absolute;inset-inline-start:0;inset-block-end:0;padding:12px 18px;background:linear-gradient(90deg,rgba(16,40,63,.94),rgba(16,40,63,.58),transparent);color:#fff;font-family:Tajawal,sans-serif;font-size:14px;font-weight:700}
+@media (max-width:700px){.practical-exam-visual{margin-top:22px}.practical-exam-visual img{min-height:230px;max-height:280px;object-position:center}.practical-exam-visual figcaption{position:relative;padding:11px 14px;background:#10283f;font-size:13px}}
