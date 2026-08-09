@@ -1,5 +1,5 @@
 // Style reminder: «طريق الثقة» — keep the quiz grid calm, practical, RTL, and use a focused overlay for the original interactive test.
-import { ArrowRight, CheckCircle2, ChevronLeft, Clock3, ExternalLink, Sparkles, Trophy, X } from "lucide-react";
+import { ArrowRight, CheckCircle2, ChevronLeft, Clock3, Sparkles, Trophy, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "wouter";
 
@@ -23,6 +23,6 @@ export default function Quiz() {
 
     <footer id="contact" className="quiz-footer"><div className="container"><Link href="/" className="quiz-brand"><span className="quiz-brand-mark">ك</span><span>مؤسسة <b>الكتبية</b><small>لتعليم السياقة</small></span></Link><p>تدرّب اليوم، وقد بثقة غداً.</p></div></footer>
 
-    {activeQuiz !== null && <div className="quiz-modal-backdrop" role="presentation" onClick={(event) => { if (event.target === event.currentTarget) close(); }}><section className="quiz-modal quiz-player-modal" role="dialog" aria-modal="true" aria-labelledby="quiz-modal-title"><button type="button" className="quiz-modal-close" onClick={close} aria-label="إغلاق"><X size={18} /></button><div className="quiz-modal-head"><span id="quiz-modal-title">اختبار السياقة {activeQuiz}</span><a href={quizUrl(activeQuiz)} target="_blank" rel="noreferrer">فتح في صفحة مستقلة <ExternalLink size={14} /></a></div><div className="quiz-player-frame"><iframe src={quizUrl(activeQuiz)} title={`اختبار السياقة ${activeQuiz}`} allow="autoplay; fullscreen" /></div><p className="quiz-player-note">إذا لم يعمل المشغل داخل النافذة، افتح الاختبار في صفحة مستقلة.</p></section></div>}
+    {activeQuiz !== null && <div className="quiz-modal-backdrop" role="presentation" onClick={(event) => { if (event.target === event.currentTarget) close(); }}><section className="quiz-modal quiz-player-modal" role="dialog" aria-modal="true" aria-labelledby="quiz-modal-title"><button type="button" className="quiz-modal-close" onClick={close} aria-label="إغلاق"><X size={18} /></button><div className="quiz-modal-head"><span id="quiz-modal-title">اختبار السياقة {activeQuiz}</span></div><div className="quiz-player-frame"><iframe src={quizUrl(activeQuiz)} title={`اختبار السياقة ${activeQuiz}`} allow="autoplay; fullscreen" /></div></section></div>}
   </div>;
 }
