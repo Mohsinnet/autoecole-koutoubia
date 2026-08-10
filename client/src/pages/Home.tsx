@@ -9,9 +9,9 @@ const mapUrl = "https://maps.app.goo.gl/3cbD1uLNynhpyvvp7";
 const youtube = "https://www.youtube.com/@utokoutoubia";
 
 const categories = [
-  { code: "A", label: "الدراجات النارية", detail: "توازن، تحكم، وثقة على الطريق.", image: "/assets/koutoubia-motorcycle.jpg", tone: "gold" },
-  { code: "B", label: "السيارات الخفيفة", detail: "التكوين الأكثر طلباً للقيادة اليومية والعمل.", image: "/assets/koutoubia-training.jpg", tone: "green" },
-  { code: "C / D / EC", label: "الشاحنات والحافلات", detail: "تأهيل مهني للمسؤوليات الكبيرة.", image: "/assets/koutoubia-truck.jpg", tone: "navy" },
+  { code: "A", label: "الدراجات النارية", detail: "توازن، تحكم، وثقة على الطريق.", image: "assets/koutoubia-motorcycle.jpg", tone: "gold" },
+  { code: "B", label: "السيارات الخفيفة", detail: "التكوين الأكثر طلباً للقيادة اليومية والعمل.", image: "assets/koutoubia-training.jpg", tone: "green" },
+  { code: "C / D / EC", label: "الشاحنات والحافلات", detail: "تأهيل مهني للمسؤوليات الكبيرة.", image: "assets/koutoubia-truck.jpg", tone: "navy" },
 ];
 
 const benefits = [
@@ -21,7 +21,7 @@ const benefits = [
 ];
 
 function Logo() {
-  return <span className="brand-mark"><img src="/assets/koutoubia-mark.svg" alt="" /><span>مؤسسة <b>الكتبية</b><small>لتعليم السياقة</small></span></span>;
+  return <span className="brand-mark"><img src="assets/koutoubia-mark.svg" alt="" /><span>مؤسسة <b>الكتبية</b><small>لتعليم السياقة</small></span></span>;
 }
 
 export default function Home() {
@@ -46,7 +46,7 @@ export default function Home() {
               <div className="hero-proof"><span><Check size={15} /> تكوين نظري وتطبيقي</span><span><Check size={15} /> مواكبة فردية</span></div>
             </div>
             <div className="hero-visual">
-              <div className="hero-image-frame"><img src="/assets/koutoubia-hero.jpg" alt="متعلم يتدرب على السياقة مع المدرب" /></div>
+              <div className="hero-image-frame"><img src="assets/koutoubia-hero.jpg" alt="متعلم يتدرب على السياقة مع المدرب" /></div>
               <div className="hero-float-card"><span className="float-icon"><Trophy size={20} /></span><div><strong>هدفنا واضح</strong><small>سائق مسؤول وآمن</small></div></div>
               <div className="route-stamp"><span>01</span><small>انطلق<br />اليوم</small></div>
             </div>
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="hero-bottom"><div className="container hero-bottom-inner"><span>مدرسة الكتبية لتعليم السياقة</span><div className="road-dash" /><span>طريقك إلى الرخصة يبدأ هنا</span></div></div>
         </section>
 
-        <section className="video-section section-pad" aria-labelledby="video-title"><div className="container video-grid"><div className="video-copy"><div className="section-kicker"><span>01</span><div /><p>شاهد طريقة التكوين</p></div><h2 id="video-title">خطوتك الأولى<br /><span>تبدأ بفهم الطريق.</span></h2><p>تعرف على أجواء مؤسسة الكتبية وطريقتنا في مواكبة المتعلمين من أول حصة إلى يوم الامتحان.</p><div className="video-meta"><span><Play size={15} /> فيديو تعريفي</span><span><ShieldCheck size={15} /> تكوين آمن واحترافي</span></div><a href={whatsapp} target="_blank" rel="noreferrer" className="text-link">اسألنا عن التسجيل <ArrowLeft size={17} /></a></div><div className="video-frame"><video controls playsInline preload="metadata" poster="/assets/koutoubia-hero.jpg" aria-label="فيديو تعريفي بمؤسسة الكتبية لتعليم السياقة"><source src="https://res.cloudinary.com/azp0ikkv/video/upload/vid_auto_Ecolekoutoubia_pfobxy.mp4" type="video/mp4" />متصفحك لا يدعم تشغيل الفيديو. <a href="https://res.cloudinary.com/azp0ikkv/video/upload/vid_auto_Ecolekoutoubia_pfobxy.mp4">شاهد الفيديو مباشرة</a></video><span className="video-corner">01 / شاهد</span></div></div></section>
+        <section className="video-section section-pad" aria-labelledby="video-title"><div className="container video-grid"><div className="video-copy"><div className="section-kicker"><span>01</span><div /><p>شاهد طريقة التكوين</p></div><h2 id="video-title">خطوتك الأولى<br /><span>تبدأ بفهم الطريق.</span></h2><p>تعرف على أجواء مؤسسة الكتبية وطريقتنا في مواكبة المتعلمين من أول حصة إلى يوم الامتحان.</p><div className="video-meta"><span><Play size={15} /> فيديو تعريفي</span><span><ShieldCheck size={15} /> تكوين آمن واحترافي</span></div><a href={whatsapp} target="_blank" rel="noreferrer" className="text-link">اسألنا عن التسجيل <ArrowLeft size={17} /></a></div><div className="video-frame"><video controls playsInline preload="metadata" poster="assets/koutoubia-hero.jpg" aria-label="فيديو تعريفي بمؤسسة الكتبية لتعليم السياقة"><source src="https://res.cloudinary.com/azp0ikkv/video/upload/vid_auto_Ecolekoutoubia_pfobxy.mp4" type="video/mp4" />متصفحك لا يدعم تشغيل الفيديو. <a href="https://res.cloudinary.com/azp0ikkv/video/upload/vid_auto_Ecolekoutoubia_pfobxy.mp4">شاهد الفيديو مباشرة</a></video><span className="video-corner">01 / شاهد</span></div></div></section>
 
         <section id="about" className="intro-section section-pad">
           <div className="container intro-grid">
