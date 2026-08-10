@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="علامة مؤسسة الكتبية">
+  <rect width="64" height="64" rx="16" fill="#f4b41a"/>
+  <path d="M16 43V21h7v9l12-9h10L31 32l15 11H35L23 34v9z" fill="#122843"/>
+  <path d="M45 18h5v28h-5z" fill="#122843" opacity=".55"/>
+</svg>
