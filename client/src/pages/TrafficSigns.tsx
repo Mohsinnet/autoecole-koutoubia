@@ -1,8 +1,7 @@
 // Style reminder: «طريق الثقة» — faithfully mirror the reference catalogue structure in Arabic RTL while retaining Koutoubia navy/gold wayfinding.
 import { useMemo, useState } from "react";
-import { ArrowRight, ChevronDown, Search, Signpost, X } from "lucide-react";
+import { ChevronDown, Search, Signpost, X } from "lucide-react";
 import SiteNav from "../components/SiteNav";
-import { Link } from "wouter";
 import { referenceGroups, type ReferenceSign } from "../referenceSigns";
 
 const allSigns = referenceGroups.flatMap((group) => group.items.map((item) => ({ ...item, category: group.title })));
@@ -26,7 +25,7 @@ export default function TrafficSigns() {
         <div className="signs-crumb"><span>دليل الطريق</span><span>/</span><b>الإشارات</b></div>
         <section className="reference-title"><div><h1>الإشارات</h1><p>جميع إشارات المرور في مدونة السير المغربية، مرتبة حسب الصنف.</p></div><span className="beta-badge">BETA</span></section>
         <section className="signs-layout">
-          <aside className="signs-aside"><div className="aside-card"><div className="aside-icon"><Signpost size={18} /></div><h2>اختر إشارة</h2><p>انقر على أي إشارة للاطلاع على معناها واستخدامها في الطريق.</p></div><div className="aside-note"><span>طريق الثقة</span><p>تعلّم الإشارات بصرياً، ثم اختبر نفسك في صفحة الاختبارات.</p><Link href="/quiz">الذهاب إلى الاختبارات <ArrowRight size={14} /></Link></div></aside>
+          <aside className="signs-aside"><div className="aside-card"><div className="aside-icon"><Signpost size={18} /></div><h2>اختر إشارة</h2><p>انقر على أي إشارة للاطلاع على معناها واستخدامها في الطريق.</p></div></aside>
           <div className="signs-content"><div className="signs-tools"><label className="signs-search"><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="ابحث عن إشارة…" aria-label="ابحث عن إشارة" />{query && <button type="button" onClick={() => setQuery("")} aria-label="مسح البحث"><X size={15} /></button>}</label><label className="signs-select"><span>الصنف</span><select value={category} onChange={(event) => setCategory(event.target.value)}>{groupOptions.map((item) => <option key={item} value={item}>{item}</option>)}</select><ChevronDown size={15} /></label></div><div className="signs-result-line"><span>{total} إشارة</span><span>{category === "جميع الأصناف" ? "جميع الأصناف" : category}</span></div>
             {filteredGroups.map((group, groupIndex) => <section className="sign-group reference-group" key={group.title}><div className="group-heading"><span className="group-dot" /><h2>{group.title}</h2><span className="group-count">{group.items.length} إشارة</span></div><div className="sign-grid">{group.items.map((item, index) => <button type="button" className="sign-card" key={`${item.name}-${index}`} onClick={() => setSelected({ ...item, category: group.title })}><div className="sign-image"><img src={item.image} alt={item.name} loading={groupIndex === 0 && index < 6 ? "eager" : "lazy"} /></div><h3>{item.name}</h3><span className="sign-index">{String(index + 1).padStart(2, "0")}</span></button>)}</div></section>)}
             {!filteredGroups.length && <div className="signs-empty"><Search size={24} /><h2>لم نجد هذه الإشارة</h2><p>جرّب كلمة أخرى أو أعد اختيار جميع الأصناف.</p><button type="button" onClick={() => { setQuery(""); setCategory("جميع الأصناف"); }}>إظهار كل الإشارات</button></div>}

@@ -1,7 +1,6 @@
 // Style reminder: «طريق الثقة» — transform the reference catalogue into a calm Arabic wayfinding tool with navy structure, gold signals, and green confirmation accents.
 import { useMemo, useState } from "react";
-import { Link } from "wouter";
-import { ArrowRight, ChevronDown, Search, ShieldAlert, X } from "lucide-react";
+import { ChevronDown, Search, ShieldAlert, X } from "lucide-react";
 import SiteNav from "../components/SiteNav";
 
 type Infraction = {
@@ -60,7 +59,7 @@ export default function Infractions() {
           </div>
         </section>
       </main>
-      {selected && <div className="infraction-overlay" role="presentation" onClick={(event) => { if (event.target === event.currentTarget) setSelected(null); }}><section className="infraction-dialog" role="dialog" aria-modal="true" aria-labelledby="infraction-title"><button type="button" className="dialog-close" onClick={() => setSelected(null)} aria-label="إغلاق"><X size={18} /></button><span className="dialog-kicker">تفاصيل المخالفة</span><h2 id="infraction-title">{selected.title}</h2><p>{selected.description}</p><div className="dialog-grid"><div><small>الفئة</small><strong>{selected.category}</strong></div><div><small>الغرامة</small><strong>DH {selected.fine}</strong></div><div><small>النقاط</small><strong>{selected.points ? `${selected.points} نقط` : "بدون خصم"}</strong></div></div><Link href="/quiz" className="dialog-action">تدرّب على الاختبار <ArrowRight size={15} /></Link></section></div>}
+      {selected && <div className="infraction-overlay" role="presentation" onClick={(event) => { if (event.target === event.currentTarget) setSelected(null); }}><section className="infraction-dialog" role="dialog" aria-modal="true" aria-labelledby="infraction-title"><button type="button" className="dialog-close" onClick={() => setSelected(null)} aria-label="إغلاق"><X size={18} /></button><span className="dialog-kicker">تفاصيل المخالفة</span><h2 id="infraction-title">{selected.title}</h2><p>{selected.description}</p><div className="dialog-grid"><div><small>الفئة</small><strong>{selected.category}</strong></div><div><small>الغرامة</small><strong>DH {selected.fine}</strong></div><div><small>النقاط</small><strong>{selected.points ? `${selected.points} نقط` : "بدون خصم"}</strong></div></div></section></div>}
     </div>
   );
 }

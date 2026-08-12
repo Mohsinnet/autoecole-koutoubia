@@ -8,7 +8,6 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Infractions from "./pages/Infractions";
 import LicenseGuide from "./pages/LicenseGuide";
-import Quiz from "./pages/Quiz";
 import TrafficSigns from "./pages/TrafficSigns";
 
 function Router() {
@@ -18,7 +17,6 @@ function Router() {
       <Switch>
       <Route path="/" component={Home} />
       <Route path="/page3.html" component={LicenseGuide} />
-      <Route path="/quiz" component={Quiz} />
       <Route path="/infractions" component={Infractions} />
       <Route path="/ar/infractions" component={Infractions} />
       <Route path="/panneaux" component={TrafficSigns} />
