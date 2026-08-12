@@ -288,3 +288,17 @@ button:active, a:active { transform: scale(.98); }
   .exam-block-reverse .practical-exam-visual { width: 100%; aspect-ratio: 16 / 10; margin-top: 0; }
 }
 
+/* New hero image for the license guide: readable Arabic copy over a restrained automotive visual. */
+.guide-header-media { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.guide-header-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,38,65,.94) 0%, rgba(16,38,65,.78) 42%, rgba(16,38,65,.42) 100%), linear-gradient(180deg, rgba(16,38,65,.16), rgba(16,38,65,.72)); }
+.guide-header-media img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 57%; filter: saturate(.9) contrast(.96); }
+@media (max-width: 700px) {
+  .guide-header-media img { object-position: 63% center; }
+  .guide-header-media::after { background: linear-gradient(90deg, rgba(16,38,65,.95) 0%, rgba(16,38,65,.78) 60%, rgba(16,38,65,.5) 100%), linear-gradient(180deg, rgba(16,38,65,.18), rgba(16,38,65,.82)); }
+  .guide-title { padding-top: 70px; padding-bottom: 78px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .guide-header-media img { animation: guide-hero-settle 1.1s cubic-bezier(.23,1,.32,1) both; }
+}
+@keyframes guide-hero-settle { from { transform: scale(1.035); opacity: .82; } to { transform: scale(1); opacity: 1; } }
+
